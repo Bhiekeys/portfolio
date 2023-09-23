@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import Lottie from 'lottie-react';
 import animation from '../assets/animate.json';
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     <Wrapper style={{ paddingTop: '200px', color: '#fff' }}>
@@ -9,11 +11,13 @@ const Home = () => {
           <h2> Hey there, I'm Olabode.</h2>
           <p>Welcome to my world of pixels, code, and creativity! </p>
           <p>
-            I'm <span>Front-End Developer</span> on a mission to craft
+            I'm a <span>Front-End Developer</span> on a mission to craft
             <br />
             captivating digital experiences.
           </p>
-          <button type="button">View Projects</button>
+          <button type="button">
+            <Link to="/projects">View Projects</Link>
+          </button>
         </div>
         <Lottie
           animationData={animation}
