@@ -44,7 +44,7 @@ const Nav = () => {
 const NavContainer = styled.nav`
  background: ${(props) =>
    props.scrolled ? 'rgba(40, 52, 48, 0.9)' : 'rgba(40, 52, 48, 0.24)'};
-  backdrop-filter: ${(props) => (props.scrolled ? 'blur(2px)' : 'none')};
+  backdrop-filter: ${(props) => (props.scrolled ? 'blur(2px)' : 'blur(90px)')};
 
   height: 5rem;
   display: flex;
