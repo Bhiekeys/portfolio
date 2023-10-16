@@ -35,8 +35,7 @@ const Sidebar = () => {
 
 const SidebarContainer = styled.div`
   text-align: center;
-  
-  
+   
   .sidebar-header {
     display: flex;
     justify-content: space-between;
@@ -85,10 +84,11 @@ const SidebarContainer = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(61, 84, 77, 0.24);
-backdrop-filter: blur(28px);
+    /* background: rgba(61, 84, 77, 0.24); */
     transition: 1s ease-in-out;
     transform: translate(-100%);
+    
+    background-color:#273a32;
     z-index: -1;
   }
   .show-sidebar {
