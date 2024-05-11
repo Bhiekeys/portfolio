@@ -3,7 +3,7 @@ import figmaland from '../assets/figmaland.png';
 import cozymart from '../assets/cozymart.png';
 import hekto from '../assets/hekto.png';
 import mixpro from '../assets/mixpro.png';
-import mockingjay from '../assets/mockingjay.png';
+import deliceCuisine from '../assets/delice.png';
 import hrme from '../assets/hrme.png';
 export const links = [
   {
@@ -56,9 +56,9 @@ export const projects = [
   },
   {
     id: 3,
-    name: 'mocking-jay',
-    url: 'https://mocking-react.vercel.app/',
-    image: mockingjay,
+    name: 'delice cuisine',
+    url: 'https://delice-cuisine.vercel.app/',
+    image: deliceCuisine,
   },
   {
     id: 4,
