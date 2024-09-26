@@ -1,7 +1,29 @@
 import { styled } from "styled-components";
 import portfolio from "../assets/portfolio.jpeg"
-
+import { useState, useEffect } from 'react';
+import Lottie from 'lottie-react';
+import animation from '../assets/loading.json';
 const About = () => {
+   const [imageLoaded, setImageLoaded] = useState(false);
+   useEffect(() => {
+     const img = new Image();
+     img.src = portfolio;
+     img.onload = () => {
+       setImageLoaded(true);
+     };
+   }, []);
+   if (!imageLoaded) {
+     return (
+       <p className=" h-screen flex justify-center items-center">
+         <Lottie
+           animationData={animation}
+           loop={true}
+           style={{ height: '200px' }}
+           className="lottie"
+         />
+       </p>
+     );
+   }
   return (
     <Wrapper>
       <div className="container">

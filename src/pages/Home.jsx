@@ -4,6 +4,7 @@ import animation from '../assets/animate.json';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+ 
   return (
     <Wrapper style={{ paddingTop: '200px', color: '#fff' }}>
       <div className="container">

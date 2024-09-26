@@ -1,10 +1,10 @@
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
-import figmaland from '../assets/figmaland.png';
 import cozymart from '../assets/cozymart.png';
-import hekto from '../assets/hekto.png';
-import mixpro from '../assets/mixpro.png';
-import deliceCuisine from '../assets/delice.png';
 import hrme from '../assets/hrme.png';
+import tmr from '../assets/tmrProject.png';
+import ods from '../assets/ods.png';
+import katajere from '../assets/katajere.png';
+import taskmaster from '../assets/taskmaster.png';
 export const links = [
   {
     id: 1,
@@ -44,38 +44,38 @@ export const socialLinks = [
 export const projects = [
   {
     id: 1,
+    name: 'tmr project',
+    url: 'https://trackmedrec.com/',
+    image: tmr,
+  },
+  {
+    id: 11,
+    name: 'ODS',
+    url: 'https://www.ogundigitalsummit.com/',
+    image: ods,
+  },
+  {
+    id: 111,
+    name: 'katajere',
+    url: 'https://www.waitlist.katajere.com/',
+    image: katajere,
+  },
+  {
+    id: 1111,
     name: 'cozy-mart',
     url: 'https://cozy-mart.netlify.app/',
     image: cozymart,
   },
   {
-    id: 2,
-    name: 'hekto',
-    url: 'https://e-com-neon.vercel.app/',
-    image: hekto,
-  },
-  {
-    id: 3,
-    name: 'delice cuisine',
-    url: 'https://delice-cuisine.vercel.app/',
-    image: deliceCuisine,
-  },
-  {
     id: 4,
-    name: 'mix-pro',
-    url: 'https://mix-pro.netlify.app/',
-    image: mixpro,
+    name: 'taskmaster',
+    url: 'https://task-master-web-app.vercel.app/',
+    image: taskmaster,
   },
   {
     id: 5,
     name: 'hrme',
     url: 'https://h-rme.vercel.app/',
     image: hrme,
-  },
-  {
-    id: 6,
-    name: 'figmaLand',
-    url: 'https://figma-land-challenge2.vercel.app/',
-    image: figmaland,
   },
 ];
